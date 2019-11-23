@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">اختبارات</string>
+    <string name="home_head">هل انتي مستعدة لاختبار قدراتك الدراسية في مجال فرعك؟</string>
+    <string name="ChooseYourSpecialty">أختر فرعك المناسب: </string>
+    <string name="Scientific">علمي</string>
+    <string name="literary">أدبي</string>
+    <string name="Biology">الأحياء</string>
+    <string name="Chemistry">الكيمياء</string>
+    <string name="Religion">الدين</string>
+    <string name="Arabic">اللغة العربية</string>
+    <string name="history">التاريخ</string>
+    <string name="Geography">الجغرافيا</string>
+    <string name="first_exam">الامتحان الاول</string>
+    <string name="second_exam">الامتحان الثاني</string>
+    <string name="third_exam">الامتحان الثالث</string>
+    <string name="back">العودة للخلف</string>
+    <string name="currentScore">النتيجة الحالية:</string>
+    <string name="currentQuestion">رقم السؤال: </string>
+    <string name="chooseTheCorrectAnswer">اختار احدى الاجابات التالية:</string>
+    <string name="nextQuestion">السؤال التالي </string>
+    <string name="AreyouReady">هل انت مستعد؟</string>
+    <string name="examName">اسم الامتحان:</string>
+    <string name="timer">الوقت المتبقي:</string>
+    <string name="previousQuestion">السؤال السابق</string>
+    <string name="finalScore">النتيجة النهائية:</string>
+    <string name="firstAnswer">السؤال الاول: </string>
+    <string name="secondAnswer">السؤال الثاني: </string>
+    <string name="thridAnswer">السؤال الثالث: </string>
+    <string name="fourthAnswer">السؤال الرابع: </string>
+    <string name="fifthAnswer">السؤال الخامس: </string>
+    <string name="sixthAnswer">السؤال السادس: </string>
+    <string name="sevenththAnswer">السؤال السابع: </string>
+    <string name="eighthAnswer">السؤال الثامن: </string>
+    <string name="ninthtAnswer">السؤال التاسع: </string>
+    <string name="LastAnswer">السؤال الاخير: </string>
+    <string name="backToHome">العودة للقائمة الرئيسية</string>
+
+</resources>

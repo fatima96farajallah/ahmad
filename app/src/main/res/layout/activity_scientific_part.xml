@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScientificPart">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Religion"
+                style="@style/Base.Animation.AppCompat.Dialog"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_margin="3dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/Religion"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+
+            <Button
+                android:id="@+id/Arabic"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_below="@+id/Religion"
+                android:layout_margin="3dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/Arabic"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+            <Button
+                android:id="@+id/Biology"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_below="@+id/Arabic"
+                android:layout_margin="3dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/Biology"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+            <Button
+                android:id="@+id/Chemistry"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_below="@+id/Biology"
+                android:layout_margin="3dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/Chemistry"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+            <Button
+                android:id="@+id/Back"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:layout_below="@+id/Chemistry"
+                android:layout_margin="3dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/back"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

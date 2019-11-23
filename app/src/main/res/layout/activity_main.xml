@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_pare nt"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="@string/home_head"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:padding="15dp"
+                android:text="@string/ChooseYourSpecialty"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="25dp" />
+
+
+            <Button
+                android:id="@+id/Scientific"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/Scientific"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/Literary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Scientific"
+                android:padding="12dp"
+                android:text="@string/literary"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

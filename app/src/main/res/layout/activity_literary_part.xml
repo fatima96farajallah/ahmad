@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LiteraryPart">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Religion"
+                style="@style/Base.Animation.AppCompat.Dialog"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_margin="2dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/Religion"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+            <Button
+                android:id="@+id/Arabic"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_below="@+id/Religion"
+                android:layout_margin="2dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/Arabic"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+            <Button
+                android:id="@+id/History"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_below="@+id/Arabic"
+                android:layout_margin="2dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/history"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+            <Button
+                android:id="@+id/Geography"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_below="@+id/History"
+                android:layout_margin="2dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/Geography"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+            <Button
+                android:id="@+id/Back"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:layout_below="@+id/Geography"
+                android:layout_margin="2dp"
+                android:background="@color/switch_thumb_normal_material_light"
+                android:text="@string/back"
+                android:textColor="@color/material_deep_teal_500"
+                android:textSize="@dimen/abc_action_button_min_height_material" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
